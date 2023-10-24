@@ -51,10 +51,6 @@ Ejercicios:
 Estudiante:
 Pompa Retana Brandon Hazael
 
-	</p>
-
-</pre>
-
                                                     ,----,               ,--,                                ,----,.                                                                                                                           ,----,.                
                           ,-.----.                 ,/   .`|            ,---.'|       ,----..                ,'   ,' |                           ,---._                                                                 ,----..                ,'   ,' |  .--,-``-.     
   ,----..     ,---,       \    /  \     ,---,    ,`   .'  :            |   | :      /   /   \             ,'   .'   |            ,---,.       .-- -.' \     ,---,.,-.----.     ,----..     ,---,  ,----..     ,---,   /   /   \             ,'   .'   | /   /     '.   
@@ -73,7 +69,11 @@ Pompa Retana Brandon Hazael
                                                                                                                                                                                                                                                                        
 
 
- 
+
+
+	</p>
+
+</pre>
 <pre>
 Problema 3 - Simular el desarrollo de un partido de Tenis (Nivel alto)
 		<details>
