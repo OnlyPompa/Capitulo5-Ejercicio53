@@ -1,0 +1,188 @@
+  `.::///+:/-.        --///+//-:``    l21210416@raspberrypi
+ `+oooooooooooo:   `+oooooooooooo:    ---------------------
+  /oooo++//ooooo:  ooooo+//+ooooo.    OS: Raspbian GNU/Linux 10 (buster) armv7l
+  `+ooooooo:-:oo-  +o+::/ooooooo:     Host: Raspberry Pi Compute Module 4 Rev 1.0
+   `:oooooooo+``    `.oooooooo+-      Kernel: 5.10.103-v7l+
+     `:++ooo/.        :+ooo+/.`       Uptime: 12 days, 15 hours, 31 mins
+        ...`  `.----.` ``..           Packages: 1745 (dpkg), 5 (snap)
+     .::::-``:::::::::.`-:::-`        Shell: bash 5.0.3
+    -:::-`   .:::::::-`  `-:::-       Terminal: asciinema
+   `::.  `.--.`  `` `.---.``.::`      CPU: BCM2711 (4) @ 1.500GHz
+       .::::::::`  -::::::::` `       Memory: 934MiB / 7847MiB
+ .::` .:::::::::- `::::::::::``::.
+-:::` ::::::::::.  ::::::::::.`:::-
+::::  -::::::::.   `-::::::::  ::::
+-::-   .-:::-.``....``.-::-.   -::-
+ .. ``       .::::::::.     `..`..
+[+] Breaking at '0x10600'
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x1
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0x0
+$r12 : 0xbefff140  →  0x00000001
+$sp  : 0xbefff0c8  →  0xb6fa3000  →  0x00148f10
+$lr  : 0xb6e71768  →  0xeb005c28 ("(\"?)
+$pc  : 0x00010600  →  <main+0> push {r11,  lr}
+$cpsr: [negative ZERO CARRY overflow interrupt fast thumb]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0xbefff0c8│+0x0000: 0xb6fa3000  →  0x00148f10    ← $sp
+0xbefff0cc│+0x0004: 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+0xbefff0d0│+0x0008: 0x00000001
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x1
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0x0
+$r12 : 0xbefff140  →  0x00000001
+$sp  : 0xbefff0c0  →  0x00000000
+$lr  : 0xb6e71768  →  0xeb005c28 ("(\"?)
+$pc  : 0x00010604  →  <main+4> add r11,  sp,  #4
+$cpsr: [negative ZERO CARRY overflow interrupt fast thumb]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0xbefff0c0│+0x0000: 0x00000000   ← $sp
+0xbefff0c4│+0x0004: 0xb6e71768  →  0xeb005c28 ("(\"?)
+0xbefff0c8│+0x0008: 0xb6fa3000  →  0x00148f10
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x1
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0xbefff0c4  →  0xb6e71768  →  0xeb005c28 ("(\"?)
+$r12 : 0xbefff140  →  0x00000001
+$sp  : 0xbefff0c0  →  0x00000000
+$lr  : 0xb6e71768  →  0xeb005c28 ("(\"?)
+$pc  : 0x00010608  →  <main+8> sub sp,  sp,  #32
+$cpsr: [negative ZERO CARRY overflow interrupt fast thumb]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0xbefff0c0│+0x0000: 0x00000000   ← $sp
+0xbefff0c4│+0x0004: 0xb6e71768  →  0xeb005c28 ("(\"?)    ← $r11
+0xbefff0c8│+0x0008: 0xb6fa3000  →  0x00148f10
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x1
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0xbefff0c4  →  0xb6e71768  →  0xeb005c28 ("(\"?)
+$r12 : 0xbefff140  →  0x00000001
+$sp  : 0xbefff0a0  →  0xb6fa4b74  →  0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$lr  : 0xb6e71768  →  0xeb005c28 ("(\"?)
+$pc  : 0x0001060c  →  <main+12> mov r0,  #0
+$cpsr: [negative ZERO CARRY overflow interrupt fast thumb]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0xbefff0a0│+0x0000: 0xb6fa4b74  →  0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"       ← $sp
+0xbefff0a4│+0x0004: 0x0001071c  →  <__libc_csu_init+40> asrs r6,  r6,  #2
+0xbefff0a8│+0x0008: 0x00000000
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x0
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0xbefff0c4  →  0xb6e71768  →  0xeb005c28 ("(\"?)
+$r12 : 0xbefff140  →  0x00000001
+$sp  : 0xbefff0a0  →  0xb6fa4b74  →  0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$lr  : 0xb6e71768  →  0xeb005c28 ("(\"?)
+$pc  : 0x00010610  →  <main+16> bl 0x1035c <time@plt>
+$cpsr: [negative ZERO CARRY overflow interrupt fast thumb]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0xbefff0a0│+0x0000: 0xb6fa4b74  →  0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"       ← $sp
+0xbefff0a4│+0x0004: 0x0001071c  →  <__libc_csu_init+40> asrs r6,  r6,  #2
+0xbefff0a8│+0x0008: 0x00000000
+0xbefff0ac│+0x000c: 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+0xbefff0b0│+0x0010: 0x000103a8  →  <_start+0> mov r11,  #0
+0xbefff0b4│+0x0014: 0x00000000
+0xbefff0b8│+0x0018: 0x00000000
+0xbefff0bc│+0x001c: 0x00000000
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── code:arm:ARM ────
+      0x10604 <main+4>         add    r11,  sp,  #4
+      0x10608 <main+8>         sub    sp,  sp,  #32
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x0
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x0
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+[ Legend: Modified register | Code | Heap | Stack | String ]
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$r0  : 0x0
+$r1  : 0xbefff214  →  0xbefff381  →  "/home/l21210416/Capitulo5-Ejercicio53/probabilidad"
+$r2  : 0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$r3  : 0x00010600  →  <main+0> push {r11,  lr}
+$r4  : 0x0
+$r5  : 0x000106f4  →  <__libc_csu_init+0> push {r4,  r5,  r6,  r7,  r8,  r9,  r10,  lr}
+$r6  : 0x000103a8  →  <_start+0> mov r11,  #0
+$r7  : 0x0
+$r8  : 0x0
+$r9  : 0x0
+$r10 : 0xb6fff000  →  0x00030f44
+$r11 : 0xbefff0c4  →  0xb6e71768  →  0xeb005c28 ("(\"?)
+$r12 : 0x00020364  →   ldr pc,  [r12,  #3244]!  ; 0xcac
+$sp  : 0xbefff0a0  →  0xb6fa4b74  →  0xbefff21c  →  0xbefff3b4  →  "SHELL=/bin/bash"
+$lr  : 0x00010614  →  <main+20> mov r3,  r0
+l21210416@raspberrypi:~/Capitulo5-Ejercicio53 $ ls
+makefile  probabilidad.c  probabilidad.s
+l21210416@raspberrypi:~/Capitulo5-Ejercicio53 $ #TERMINAMOS
+l21210416@raspberrypi:~/Capitulo5-Ejercicio53 $ EXIT
+bash: EXIT: command not found
+l21210416@raspberrypi:~/Capitulo5-Ejercicio53 $ exit
+exit
