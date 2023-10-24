@@ -14,12 +14,14 @@ Fecha:      25/10/2023
 
 #define NUM_MATCHES 10
 
-// Función para jugar un punto
+// Función para jugar un punto - jugar_punto(double p): Esta función simula un punto jugado entre los dos jugadores. 
+//La probabilidad de que el jugador A gane el punto es p. La función devuelve 1 si el jugador A gana el punto, y 0 en caso contrario.
 int jugar_punto(double p) {
     return rand() < p * RAND_MAX;
 }
 
-// Función para jugar un juego
+// Función para jugar un juego - jugar_juego(double p): Esta función simula un juego completo de tenis. Un juego se gana al ganar 4 puntos. La función utiliza la función jugar_punto para simular cada punto y cuenta el número de puntos ganados por cada jugador.
+// La función devuelve 1 si el jugador A gana el juego, y 0 en caso contrario.
 int jugar_juego(double p) {
     int puntos_A = 0;
     int puntos_B = 0;
@@ -33,7 +35,8 @@ int jugar_juego(double p) {
     return puntos_A == 4;
 }
 
-// Función para jugar un set
+// Función para jugar un set - jugar_set(double p): Esta función simula un set completo de tenis. Un set se gana al ganar 6 juegos. La función utiliza la función jugar_juego para simular cada juego y cuenta el número de juegos ganados por cada jugador. 
+// La función devuelve 1 si el jugador A gana el set, y 0 en caso contrario.
 int jugar_set(double p) {
     int juegos_A = 0;
     int juegos_B = 0;
@@ -47,7 +50,8 @@ int jugar_set(double p) {
     return juegos_A == 6;
 }
 
-// Función principal
+// Función principal - main(): Esta es la función principal del programa. Simula una serie de partidos de tenis utilizando la función jugar_set. Para cada partido, calcula la probabilidad de que el jugador A gane un punto (que varía de 0 a 1 en incrementos de 0.1) y luego simula 1000 partidos con esa probabilidad. 
+// Después de simular los partidos, calcula la proporción de partidos ganados por el jugador A y la imprime.
 int main() {
     srand(time(NULL));
     for(int i = 0; i < NUM_MATCHES; i++) {
