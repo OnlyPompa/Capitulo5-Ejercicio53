@@ -68,6 +68,9 @@ int main() {
     return 0;
 }
 */
+/**
+//                 PROGRAMA EN ENSAMBLADOR        //
+*/
 .arch armv6
 .eabi_attribute 28, 1
 .eabi_attribute 20, 1
