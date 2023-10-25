@@ -1,3 +1,12 @@
+/**
+Problema 3 - Segundosenperiodosdetiempo
+
+Este programa simula una serie de partidos de tenis entre dos jugadores, A y B. 
+El objetivo es calcular la probabilidad de que el jugador A gane el partido en función de su probabilidad de ganar un punto.
+
+Author:    Only Pompa
+Fecha:      25/10/2023
+*/
 .arch armv6
 .eabi_attribute 28, 1
 .eabi_attribute 20, 1
